@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Signup</title>
+  <link rel="stylesheet" type="text/css" href="public/styles/style.css">
+  <title>Login-Signup</title>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="left-nav">
+      <a href="/">Login-Signup Project</a>
+    </div>
+    <div class="right-nav">
+      <div class="nav-anchor">
+        <a href="/login">Login</a>
+      </div>
+      <div class="nav-anchor">
+        <a href="/signup">Signup</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+      <div class='header'>
+        <div class='text'>Signup</div>
+        <div class='underline'></div>
+      </div>
+      <div class='inputs'>
+        <div class="input">
+          <img src="public/images/person.png" alt="user" />
+          <input type="text" id="name" placeholder='Name'/>
+        </div>
+        <div class="input">
+          <img src="public/images/email.png" alt="email" />
+          <input type="email" id="email" placeholder='Email-id'/>
+        </div>
+        <div class="input">
+          <img src="public/images/password.png" alt='password'/>
+          <input type="password" id="password" placeholder='Password'/>
+        </div>
+      </div>
+      <div class="submit-container">
+        <button class="submit" id="submit">Signup</button> 
+      </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="../routes/SignupClient.js"></script>
+</body>
+</html>
