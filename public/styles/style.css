@@ -174,3 +174,11 @@ html, body {
   .bottom-anchor {
     font-size: 30px;
   }
+
+.not-logged {
+    text-align: center;
+}
+
+.not-logged h1 {
+    color: #fff;
+}
