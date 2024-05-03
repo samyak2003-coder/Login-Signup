@@ -13,7 +13,3 @@ The server is created using https module implementing SSL certificate (cert.pem 
 To run this locally, fork the repo and create your ssl certificate 
 get the public key, private key and certificate and store in ssl folder
 
-then connect to mongodb via localhost:27071. Create a DB called myDB 
-or your custom database
-
-Connect to https://localhost:5000 
